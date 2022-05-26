@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Forum&family=Manrope:wght@200;300;400;500;600;700;800&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  padding: 50px;
+}
+#header .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header .header .logo h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 42px;
+  color: #EBB75A;
+}
+#header .header .logo h2 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ffffff;
+}
+#header .header .logo img {
+  position: absolute;
+  top: 40px;
+  left: 430px;
+}
+#header .header a {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+#header .header .tell h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+#header .header .tell p {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #EBB75A;
+}
+
+#hero {
+  background: url("../img/bg1.png") no-repeat center/cover;
+  padding: 150px 0;
+}
+#hero .hero h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 64px;
+  color: #FFFFFF;
+  margin-bottom: 50px;
+}
+#hero .hero p {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+#hero .hero .img1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#hero .hero .img2 {
+  position: absolute;
+  top: 145px;
+  left: 648px;
+}
+#hero .hero .img3 {
+  position: absolute;
+  top: 445px;
+  left: -20px;
+}
+#hero .hero .img4 {
+  position: absolute;
+  left: 1150px;
+  top: 560px;
+}
+#hero .hero .hero-btn {
+  display: flex;
+}
+#hero .hero .hero-btn button {
+  width: 218px;
+  height: 48px;
+  background: #EBB75A;
+  border-radius: 35px;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+#hero .hero .hero-btn button:hover {
+  transform: scale(1.1);
+}
+#hero .hero .hero-btn h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding-left: 20px;
+}
+#hero .hero .hero-btn h1 span {
+  color: #EBB75A;
+}
+#hero .hero .hero-icons {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+#hero .hero .hero-icons div {
+  display: flex;
+  align-items: center;
+  padding-right: 100px;
+}
+#hero .hero .hero-icons div img {
+  padding-bottom: 50px;
+  padding-right: 10px;
+}
+#hero .hero .hero-icons div h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+#menu {
+  background: #2b2b2b;
+}
+#menu .menu h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 55px;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+#menu .menu img {
+  position: absolute;
+  top: 890px;
+  left: 404px;
+}
+#menu .menu .tab-gen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#menu .menu .tab-gen .label1 {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#menu .menu .tab-gen .label1 label {
+  padding: 15px 50px;
+  border: 2px solid #FFFFFF;
+  border-radius: 63px;
+  color: #FFFFFF;
+  margin: 20px 50px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+#menu .menu .tab-gen .label1 label:hover {
+  border: 2px solid #EBB75A;
+}
+#menu .menu .tab-gen .general {
+  margin-top: 100px;
+}
+#menu .menu .tab-gen .general input {
+  display: none;
+}
+#menu .menu .tab-gen .general .tab-block {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+#menu .menu .tab-gen .general .tab-block div {
+  width: 241px;
+  height: 291px;
+  border: 2px solid #FFFFFF;
+  border-radius: 30px;
+  padding-left: 10px;
+  margin: 130px 20px;
+}
+#menu .menu .tab-gen .general .tab-block div .img1 {
+  position: absolute;
+  top: 1350px;
+  left: 252px;
+}
+#menu .menu .tab-gen .general .tab-block div .img2 {
+  position: absolute;
+  top: 1350px;
+  left: 672px;
+}
+#menu .menu .tab-gen .general .tab-block div .img3 {
+  position: absolute;
+  top: 1350px;
+  left: 1072px;
+}
+#menu .menu .tab-gen .general .tab-block div .img4 {
+  position: absolute;
+  top: 1900px;
+  left: 252px;
+}
+#menu .menu .tab-gen .general .tab-block div .img5 {
+  position: absolute;
+  top: 1900px;
+  left: 672px;
+}
+#menu .menu .tab-gen .general .tab-block div .img6 {
+  position: absolute;
+  top: 1900px;
+  left: 1075px;
+}
+#menu .menu .tab-gen .general .tab-block div h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding-top: 120px;
+  margin-bottom: 50px;
+}
+#menu .menu .tab-gen .general .tab-block div h2 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  margin-bottom: 20px;
+}
+#menu .menu .tab-gen .general .tab-block div h3 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+#menu .menu .tab-gen .general .tab-block div p {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+  padding-left: 130px;
+}
+#menu .menu .menu-bg1 {
+  position: absolute;
+  top: 150rem;
+  left: 0;
+}
+#menu .menu .menu-bg2 {
+  position: absolute;
+  top: 145rem;
+  left: 80rem;
+}
+#menu .menu .menu-bg3 {
+  position: absolute;
+  top: 145rem;
+  left: 0;
+}
+
+#m1:checked ~ .block1,
+#m1:checked ~ .block2,
+#m1:checked ~ .block3,
+#m1:checked ~ .block4,
+#m1:checked ~ .block5,
+#m1:checked ~ .block6 {
+  display: none;
+}
+
+#taxi {
+  background: #2b2b2b;
+  padding-top: 250px;
+}
+#taxi .taxi h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+#taxi .taxi p {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #EBB75A;
+  margin-bottom: 100px;
+}
+#taxi .taxi .tit-gen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#taxi .taxi .tit-gen div h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#taxi .taxi .tit-gen div p {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#taxi .taxi .tit-gen2 {
+  display: flex;
+  margin-bottom: 100px;
+}
+#taxi .taxi .tit-gen2 div {
+  margin: 0 200px;
+}
+#taxi .taxi .tit-gen2 div h1 {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+#taxi .taxi .tit-gen2 div p {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+#taxi .taxi .vector {
+  position: absolute;
+  top: 183rem;
+  left: 20rem;
+}
+#taxi .taxi .taxi-phone {
+  position: absolute;
+  top: 191rem;
+  left: 190px;
+}
+#taxi .taxi .taxi-air {
+  position: absolute;
+  top: 176rem;
+  left: 465px;
+}
+#taxi .taxi .taxi-pizza {
+  position: absolute;
+  top: 193rem;
+  left: 685px;
+}
+#taxi .taxi .taxi-taxi {
+  position: absolute;
+  top: 176rem;
+  left: 900px;
+}
+#taxi .taxi .taxi-box {
+  position: absolute;
+  top: 193rem;
+  left: 1150px;
+}
+#taxi .taxi .touch1 {
+  position: absolute;
+  top: 192rem;
+  left: 312px;
+}
+#taxi .taxi .touch2 {
+  position: absolute;
+  top: 182.5rem;
+  left: 500px;
+}
+#taxi .taxi .touch3 {
+  position: absolute;
+  top: 192rem;
+  left: 740px;
+}
+#taxi .taxi .touch4 {
+  position: absolute;
+  top: 183rem;
+  left: 950px;
+}
+#taxi .taxi .touch5 {
+  position: absolute;
+  top: 192rem;
+  left: 1170px;
+}
+#taxi .taxi button {
+  width: 218px;
+  height: 48px;
+  background: #EBB75A;
+  border-radius: 35px;
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  transition: 0.4s;
+}
+#taxi .taxi button:hover {
+  transform: scale(1.1);
+}
+#taxi .taxi-tit {
+  font-family: "Forum", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */

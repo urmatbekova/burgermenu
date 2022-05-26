@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+@mixin btn {
+  width: 218px;
+  height: 48px;
+  background: #EBB75A;
+  border-radius: 35px;
+  font-family: 'Forum',sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #FFFFFF;
+  cursor: pointer;
+  border: none;
+  transition: .4s;
+
+  &:hover{
+ transform: scale(1.1);
+  }
+}
